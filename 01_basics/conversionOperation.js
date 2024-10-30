@@ -46,5 +46,8 @@ console.log(typeof bool);
         ""=false
         "xyz"=true
      */
+// *************************OPERATIONS*********************
+
+
     
     
