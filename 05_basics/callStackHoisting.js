@@ -23,12 +23,15 @@
 //USING LET AND CONST-> not applicable
 //ONLY APPLICABLE FOR VAR keyqword
 
-//function expression mei nhi chalega
+//function EXPRESSION mei nhi chalega
 
-myName()
-var myName=function (){
-    console.log("Hello Anuska!");
+// myName()
+// var myName=function (){
+//     console.log("Hello Anuska!");
     
+// }, shows error
+
+class Human{
+
 }
-
-
+const obj=new Human();
