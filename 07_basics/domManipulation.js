@@ -39,3 +39,54 @@ navigation, screen size, etc
  *      -> in response -> multiple output/single output
  * 
  */
+
+/**
+ * document.getElementById("fpara")-> method
+ * where we provide an ID, gives a single object matching the particular iD
+ * 
+ * 
+ * document.getElementByClassName()
+ * document.getElementByTagName("p"), etc
+ * 
+ * querySelector-> shortcut for getBy method
+ * querySelector(#id_name)
+ * querySelector(.class_name)
+ * querySelector(tag_name)-> query..('p')
+ * 
+ * document.querySelector('.textMatter')
+<p id=​"fpara" class=​"textMatter">​First Paragraph!​</p>​
+sbse pehle jo class milega usi ko return krega, baki sb ignore
+
+so use querySlectorAll(.classname)
+() */
+
+/**
+ * DOCUMENT 
+ * ACCESS ELEMENT-> by Id
+ *              -> class
+ *              -> tag
+ *              -> $0
+ * 
+ * UPDATE EXISTING ELEMENT
+ * -> inner HTML -< get/set
+ * -> outer HTMl
+ * -> text content-> jitna enters/tabs we pressed, all visible
+ * -> inner Text-> text content visible, jiase tum UI pe render krte waise hi dikhai dega
+ * 
+ * let element=document.querySelector('#fdiv')
+ * element
+ * element.textContent
+ */
+
+/**
+let myDiv=document.querySelector('#myDiv')
+let newElement= document.querySelector('span')
+let newElement= document.createElement('span')
+newElement.textContent='HEllo everyone'
+myDiv.insertAdjacentHTML('beforebegin',newElement)
+myDiv.insertAdjacentHTML('beforebegin',newElement)
+ */
+
+/**
+ * remove child()-> opposite of apend
+ */
