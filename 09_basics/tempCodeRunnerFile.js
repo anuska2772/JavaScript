@@ -1,0 +1,1 @@
+if(event.target.nodeName==='SPAN')
