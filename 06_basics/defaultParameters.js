@@ -19,4 +19,4 @@ function utility(name="Anuska", age=getAge()){
 //utility("anuska",10)
 // utility("anuska")//o/p->anuska undefined
 // utility()//o/p-> undefined undefined
-utility()
+utility()//passign functions

@@ -18,8 +18,10 @@
 // console.log(name);//will show error->name is not defined
 
 //BLOCK SCOPE-> var is not a block scope
-console.log(age);
+console.log(age); //gives undefined as hoisting happens till var age= 
 {
     var age=21;
 }
-//console.log(age);
+console.log(age);//will not work if age declared with let, const
+//Global scope should not be used-> safer code execution, no debugging issues,
+//predictability increases. 

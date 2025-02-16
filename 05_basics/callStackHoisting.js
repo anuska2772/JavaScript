@@ -31,7 +31,12 @@
     
 // }, shows error
 
+//const obj=new Human();//wont work
 class Human{
 
 }
-const obj=new Human();
+//const obj=new Human();//running well
+/**
+ * HOISTING is only possible for function declaration
+ * and variable declaration
+ */

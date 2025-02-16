@@ -12,11 +12,12 @@
 
 class Human{
     age=21;//public -> can be used inside the class as well as outside
-    #wt=51;//# marks the variable as private,
+    #wt=51;//# marks the variable as private, used only in the class it is defined not outside
     ht=163;
 
     walking(){
         console.log("I am walking ",this.#wt);
+        //cant drectly write #wt, have to use this keyword
         
     }
 
@@ -24,6 +25,21 @@ class Human{
         console.log("I am running");
         
     }
+    get fetchWeight(){
+        return this.#wt;
+    }
+    set modifyWeight(val){
+
+        this.#wt=val;
+    }
 }
 let obj=new Human();
 console.log(obj.walking()); 
+
+/**To access the a private data outside the class 
+ * we use getters(a function used to fetch the value of a private data)
+ *  and setters(updates the value)
+ * 
+ * getter setter use case-> to add on semantic clarity, can do encapsulation,provide data production
+ * 
+ */
