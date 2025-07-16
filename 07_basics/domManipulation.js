@@ -90,3 +90,17 @@ myDiv.insertAdjacentHTML('beforebegin',newElement)
 /**
  * remove child()-> opposite of apend
  */
+
+/**
+ * important terms
+ * 1. dev tools
+ * tabs
+ * elememts- html code whatever we type, displayed here
+ * console- js outputs
+ * sources- the files that we create for out codes
+ * network- when server interacts with anything, or gets output fom servers - api calling, etc
+ * application- session storage, cookies
+ * lighthouse- performance checker 
+ 
+
+*/

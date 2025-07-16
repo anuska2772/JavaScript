@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my Website</h1>
+    <h2 id="actionRed">I am Anuska Chatterjee</h2>
+    <p>Here is a button</p>
+    <button id="clickButton" >Click me</button>
+    
+    <script>
+        // let btn=document.getElementById("clickButton")
+        // let act=document.getElementById("actionRed")
+
+        // btn.addEventListener("click", ()=>{
+        //     act.style.color="red";
+        // })
+
+        const allChildren= document.querySelector("body").children;
+        for(let i=0; i<allChildren.length; i++){
+            allChildren.item(i).addEventListener("click",()=>{
+                allChildren.item(i).remove();
+            })
+
+        }
+    </script>
+</body>
+</html>
